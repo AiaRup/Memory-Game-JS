@@ -1,0 +1,116 @@
+body, html {
+	color: white;
+	font-family: 'anton', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+
+.fullwidth {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.bgimg-left {
+    background-color: salmon;
+    height: 100%; 
+    left: 0;
+	position: absolute;
+    width: 50%;
+ }
+
+.bgimg-right {
+    background-image: url("../img/aia.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.info {
+    font-size: 20px;
+	left: 100px;
+    position: absolute;
+    top: 10px;
+    width: 500px;
+ }
+
+#name {
+	opacity: 0.5;
+	text-transform: uppercase;
+}
+
+.goplay {
+	margin-bottom: 90px;
+	opacity: 0.7;
+}
+
+.button {
+    background-color: #c0c0c0;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 5px 5px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 15px;
+    padding: 15px 30px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    transition: width 1s;
+    width: 120px;
+}
+
+.button1:hover {
+    background-color: #ff6347;
+    color: white;
+    width: 140px;
+}
+
+hr {
+	background-image: url('../img/hrstars.png');
+	border: none;
+	height: 20px;
+	width: 60%;
+}
+
+.knowmore {
+	font-family: 'Arial', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.knowmore span {
+	font-family: 'Lobster', cursive;
+}
+
+.knowmore a {
+	color: white;
+	text-decoration: none;
+}
+
+.navigation {
+    float: right;
+	height: 100px;
+    width: 200px;
+}
+
+.navigation img {
+    max-height: 25%;
+	max-width: 25%;
+}
+
+.navigation h2 {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black ;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	width: 100px;
+}
+
+.navigation ul {
+	list-style-type: none;
+}

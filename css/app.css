@@ -1,0 +1,129 @@
+body, html {
+    background-color: lightcyan;
+    font-family: "Cambria", "Georgia", serif;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.leftside {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 50%;
+}
+
+.rightside {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.name {
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+}
+
+.notyou {
+    border: 0.5px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.header {
+    background-color: powderblue;
+    border: 7px solid paleturquoise;
+    border-radius: 15px;
+    color: aquamarine;
+    font-family: "Brush Script MT", cursive;
+    font-size: 2.5em;
+    height: 200px;
+    padding: 5px;
+    text-align: center;
+}
+
+.header img {
+    float:left;
+    margin-top: 20px;
+}
+
+.board {
+    margin-left: 30px;
+}
+
+.card {
+    background-color: gainsboro;
+    border-radius: 15px;
+    float: left;
+    height: 165px;
+    margin: 5px;
+    width: 165px;
+}
+
+.card img {
+    position: absolute;
+}
+
+.flipped .back {
+    display: none;
+}
+
+.instructions {
+    font-size: 1.2em;
+    margin: 30px;
+    padding-right: 30px;
+}
+
+.instructions h3 {
+    color: teal;
+}
+
+.score {
+    font-family: "Garamond", "Times New Roman", serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.button {
+    background-color: teal;
+    border: 1px solid teal;
+    border-radius: 50%;
+    bottom: 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 12px;
+    left: 20px;
+    padding: 15px 25px;
+    position: absolute;
+    text-align: center;
+    transition: width 1s;
+    width: 125px;
+}
+
+.button1:hover {
+    background-color: cadetblue;
+    color: white;
+    width: 140px;
+}
+
+#playagain {
+    bottom: 30px;
+    left: 600px;
+    position: absolute;
+}
+
+#iGiveUp {
+    bottom: 20px;
+    left: 300px;
+    position: absolute;
+}
